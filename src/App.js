@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React start up
+          Learn React start up --testing Amplify's continuous deployment
         </a>
       </header>
     </div>
