@@ -1,4 +1,6 @@
 import React from 'react';
+import accessibilitiesData from './data/accessibilities.json'
+import servicesData from './data/services.json'
 
 const HotelInfo = () => {
   return (
@@ -22,40 +24,22 @@ const HotelInfo = () => {
           <h2>Services and Amenities</h2>
           <p>Our services and amenities are designed to make your travel easy, your stay comfortable, and your experience one-of-a-kind.</p>
           <ul>
-            <li>Indoor pool</li>
-            <li>24-hour fitness center</li>
-            <li>Massage therapy</li>
-            <li>Full service spa</li>
-            <li>In-room jacuzzi tubs</li>
-            <li>Rooftop café  &amp; smoothie bar</li>
-            <li>Coffee bar  &amp; pastry shop</li>
-            <li>Traditional continental breakfast</li>
-            <li>24-hour concierge service</li>
-            <li>Business center</li>
-            <li>Complimentary wireless service</li>
-            <li>Laundry &amp; dry cleaning service</li>
-            <li>Daily paper</li>
-            <li>Certified "green" hotel</li>
-            <li>Pet-friendly rooms  &amp; common areas</li>
+            {
+              servicesData.map((service) =>
+                <li>{service.name}</li>
+              )
+            }
           </ul>
         </section>
         <section className="checklist" id="accessibility">
           <h2>Accessibility</h2>
           <p>We're committed to maintaining the same quality of service for every individual. We offer the following facilities for those with special needs:</p>
           <ul>
-            <li>Grab bars on tub walls</li>
-            <li>Shower chairs</li>
-            <li>Hand held shower sprayers</li>
-            <li>Higher toilets &amp; toilet modifiers</li>
-            <li>Lower sink faucet handles</li>
-            <li>Wheelchair clearance under sinks &amp; vanity</li>
-            <li>Lower racks in closet</li>
-            <li>TDD machines</li>
-            <li>Telephone light signalers  &amp; smoke alarms</li>
-            <li>Telephone amplification handsets</li>
-            <li>Closed captioned television converters</li>
-            <li>Vibrating alarm clocks</li>
-            <li>Telephones with volume control</li>
+            {
+              accessibilitiesData.map((accessibility) =>
+                <li>{accessibility.name}</li>
+              )
+            }
           </ul>
         </section>
       </article>
