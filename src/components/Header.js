@@ -1,7 +1,24 @@
-import React from 'react';
-import menuLinksData from './data/menu_links.json'
+import React, { useState, useEffect } from 'react';
+// import menuLinksData from './data/menu_links.json'
 
 const Header = () => {
+  const [menuLinksData, setMenuLinksData] = useState([]);
+
+  const loadMenuLinksData = async() => {
+    // send a request to the API gateway
+    const resp = await fetch('https://b1p2l99821.execute-api.eu-central-1.amazonaws.com/Prod/menuLinks');
+    let jsonData = await resp.json();
+
+    // then assign the response 'resp' from the API gateway to our state variable
+    setMenuLinksData(jsonData);
+  }
+
+  useEffect(() => {
+    // Load the menuLinks data from dynamoDB via the /Prod/menuLinks of the AphesisHotelAPI (API Gateway)
+    loadMenuLinksData();
+  }, []);
+
+
   return (
     <header id="intro">
     <article className="fullheight">
