@@ -74,7 +74,7 @@ const HotelInfo = () => {
       </article>
       <article id="greenprogram">
         <h2>Aphesis Green Program</h2>
-        <p><strong>The Aphesis Hotel</strong> was recently renovated, and we considered the impact on the earth the entire way. From green building materials, to solar power, to energy-friendly lighting and appliances throughout the hotel - we’re saving energy in every socket, outlet, and switch. We’ve also initiated a recycling and composting program that reduces the load to local landfills, while providing valuable raw material for use in new products, or in the case of compost, for use in local gardens and landscapes.</p>
+        <p><strong>The Aphesis Green Initiative</strong> involves comprehensive measures implemented during the recent renovation of the Aphesis Hotel, prioritizing environmental sustainability at every step. Incorporating eco-friendly building materials, harnessing solar energy, and outfitting the premises with energy-efficient lighting and appliances are among the strategies employed to minimize energy consumption. Furthermore, we've established a recycling and composting scheme aimed at alleviating the burden on nearby landfills. This program not only diverts waste from these sites but also supplies valuable resources for the production of new items. Additionally, the compost generated serves as enriching material for local gardens and landscapes, contributing to the community's green spaces.</p>
       </article>
     </div>
 
