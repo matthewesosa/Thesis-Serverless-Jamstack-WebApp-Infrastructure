@@ -18,7 +18,7 @@ backend:
   phases:
     build:
       commands:
-        - aws s3 cp build/ s3://serverlessthesisbucket/ --recursive --profile mypassrole
+        - aws s3 cp build/ s3://serverlessthesisbucket/ --recursive
 
 
 
