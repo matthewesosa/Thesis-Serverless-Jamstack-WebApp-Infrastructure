@@ -31,10 +31,7 @@ var params = {
       }
     }
   ], 
-  ProvisionedThroughput: {
-    ReadCapacityUnits: 10,
-    WriteCapacityUnits: 10
-  }
+  BillingMode: "PAY_PER_REQUEST" // Use on-demand capacity mode
 };
 
 dynamodb.createTable(params, function(err, data) {
