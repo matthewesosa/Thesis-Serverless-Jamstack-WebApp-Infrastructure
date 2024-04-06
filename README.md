@@ -1,5 +1,5 @@
 # Introduction
-The rapid evolution of cloud computing has transformed the landscape of application deployment. This research project aims to design, implement, and evaluate the scalability of a Serverless and JamStack web application infrastructure hosted on the Amazon Web Services (AWS) Cloud. The objective is to investigate the effectiveness of AWS services in achieving optimal performance, reliability, and scalability for modern web applications.
+The rapid evolution of cloud computing has transformed the landscape of application deployment. This research project aims to design, implement, and evaluate the scalability of a Serverless and JamStack web application infrastructure hosted on Amazon Web Services (AWS) Cloud. The objective is to investigate the effectiveness of AWS services in achieving optimal performance, reliability, and scalability for modern web applications.
 
 # Background and Rationale:
 As organizations increasingly migrate their applications to the cloud, understanding the design principles and scalability factors of cloud infrastructure becomes paramount. This research is motivated by the need to explore the best practices for designing and implementing a scalable web application infrastructure on AWS. By evaluating the performance and scalability, this study seeks to provide insights that can guide practitioners in optimizing their cloud-based deployments.
@@ -13,8 +13,11 @@ Consequently, the server-side functions predominantly focus on tasks involving d
 
 ### Serverless Computing (Function as a Service):
 Serverless computing is a method to execute code in a cloud environment without caring about the underlying infrastructure. You deploy your application while the cloud provider takes care of the execution in response to particular 'triggers' or 'events'. This eliminates the inconvenience of managing servers.
+
 •	No Server Management: With serverless computing, developers do not need to provision, scale, or manage servers. The cloud provider takes care of infrastructure management, including server provisioning, scaling, patching, and maintenance.
-•	Function Invocation-Based Pricing: Serverless platforms typically charge based on the number of invocations or executions of your functions. Each time your function is triggered by an event (such as an HTTP request, database change, or timer-based trigger), an invocation occurs, and you are billed for that invocation.You are billed based on the duration of each invocation
+
+•	Function Invocation-Based Pricing: Serverless platforms typically charge based on the number of invocations or executions of your functions. Each time your function is triggered by an event (such as an HTTP request, database change, or timer-based trigger), an invocation occurs, and you are billed for that invocation.You are billed based on the duration of each invocation.
+
 
 ## Classical WebApp Infrastructure (Old School Approach)
 ![](images/templating.png)
