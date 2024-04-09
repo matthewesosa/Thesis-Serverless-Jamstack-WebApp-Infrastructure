@@ -1,26 +1,26 @@
 [
   {
-    "src": "https://landonhotel.com/images/hotel/intro_room.jpg",
+    "src": "https://aphesishotel.s3.eu-central-1.amazonaws.com/intro_room.jpg",
     "alt": "Intro Gallery Room Sample Pictures",
     "className": ""
   },
   {
-    "src": "https://landonhotel.com/images/hotel/intro_pool.jpg",
+    "src": "https://aphesishotel.s3.eu-central-1.amazonaws.com/intro_pool.jpg",
     "alt": "Intro Gallery Pool Sample Pictures",
     "className": ""
   },
   {
-    "src": "https://landonhotel.com/images/hotel/intro_dining.jpg",
+    "src": "https://aphesishotel.s3.eu-central-1.amazonaws.com/intro_dining.jpg",
     "alt": "Intro Gallery Dining Sample Pictures",
     "className": ""
   },
   {
-    "src": "https://landonhotel.com/images/hotel/intro_attractions.jpg",
+    "src": "https://aphesishotel.s3.eu-central-1.amazonaws.com/intro_attractions.jpg",
     "alt": "Intro Gallery Attractions Sample Pictures",
     "className": ""
   },
   {
-    "src": "https://landonhotel.com/images/hotel/intro_wedding.jpg",
+    "src": "https://aphesishotel.s3.eu-central-1.amazonaws.com/intro_wedding.jpg",
     "alt": "Intro Gallery Dining Sample Pictures",
     "className": "hidesm"
   }

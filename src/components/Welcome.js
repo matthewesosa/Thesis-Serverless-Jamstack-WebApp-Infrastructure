@@ -29,7 +29,7 @@ const Welcome = () => {
           }
         </div>
         <h1>Welcome to the Aphesis&nbsp;Hotel</h1>
-        <p>The enduring legacy of the Aphesis spans nine decades, standing as a testament to its resilience. Situated in the vibrant West End neighborhood, it offers a diverse array of attractions to suit every taste, ranging from captivating theater performances and gourmet dining experiences to captivating historic landmarks. Don't overlook the Rooftop Cafe, a must-visit spot for both travelers and locals seeking enjoyable conversations&nbsp;accompanied by drinks and delectable cuisine. &nbsp; For deeper insights into the Aphesis Hotel's offerings in the West End, feel free to explore our website and <a href="files/landon_information_sheet_London.pdf">access our convenient information sheet.</a>.</p>
+        <p>The enduring legacy of the Aphesis spans nine decades, standing as a testament to its resilience. Situated in the vibrant West End neighborhood, it offers a diverse array of attractions to suit every taste, ranging from captivating theater performances and gourmet dining experiences to captivating historic landmarks. Don't overlook the Rooftop Cafe, a must-visit spot for both travelers and locals seeking enjoyable conversations&nbsp;accompanied by drinks and delectable cuisine. &nbsp; For deeper insights into the Aphesis Hotel's offerings in the West End, feel free to explore our website and <a href="files/aphesishotelinfo.pdf">access our convenient information sheet.</a>.</p>
       </article>
     </div>
   );
