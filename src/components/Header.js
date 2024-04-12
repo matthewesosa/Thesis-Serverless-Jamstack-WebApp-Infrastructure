@@ -24,7 +24,7 @@ const Header = () => {
     <article className="fullheight">
     <div className="hgroup">
         <h1>Aphesis Hotel</h1>
-        <p><a href="#welcome"><img src="https://landonhotel.com/images/misc/arrow.png" alt="down arrow" /></a></p>
+        <p><a href="#welcome"><img src="https://aphesishotel.s3.eu-central-1.amazonaws.com/arrow.png" alt="down arrow" /></a></p>
     </div>
     </article>
 
