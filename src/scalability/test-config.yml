@@ -1,22 +1,22 @@
 config:
   target: 'https://b1p2l99821.execute-api.eu-central-1.amazonaws.com/Prod'
   phases:
-    - duration: 300        # Ramp-up phase duration in seconds
+    - duration: 600        # Ramp-up phase duration in seconds
       arrivalRate: 5       # Initial arrival rate (virtual users per second)
       rampTo: 10           # Ramp-up to this arrival rate over the duration
       name: 'Ramp-up Phase'
-    - duration: 30         # Pause phase duration in seconds after ramp-up
+    - duration: 60         # Pause phase duration in seconds after ramp-up
       arrivalRate: 0       # No arrival rate during the pause phase
       name: 'Pause after Ramp-up'
-    - duration: 1800        # Steady state phase duration in seconds
+    - duration: 3600        # Steady state phase duration in seconds
       arrivalRate: 10      # Maintain this arrival rate (peak load)
       name: 'Steady State Phase'
-    - duration: 30         # Pause phase duration in seconds after steady state
+    - duration: 60         # Pause phase duration in seconds after steady state
       arrivalRate: 0       # No arrival rate during the pause phase
       name: 'Pause after Steady State'
-    - duration: 300        # Ramp-down phase duration in seconds
+    - duration: 600        # Ramp-down phase duration in seconds
       arrivalRate: 10      # Start ramping down from this arrival rate
-      rampTo: 0            # Ramp down to zero arrival rate over the duration
+      rampTo: 5            # Ramp down to zero arrival rate over the duration
       name: 'Ramp-down Phase'
   defaults:
     headers:
