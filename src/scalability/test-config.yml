@@ -16,7 +16,7 @@ config:
       name: 'Pause after Steady State'
     - duration: 600        # Ramp-down phase duration in seconds
       arrivalRate: 10      # Start ramping down from this arrival rate
-      rampTo: 5            # Ramp down to zero arrival rate over the duration
+      rampTo: 5            # Ramp down to initial arrival rate over the duration
       name: 'Ramp-down Phase'
   defaults:
     headers:
